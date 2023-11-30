@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#about, #skills, #projects, #resume, #contact {
+    padding: 40px;
+  inline-size: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add more specific styling for each section as needed */
+@media (max-width: 768px) {
+    #about, #skills, #projects, #resume, #contact {
+        padding: 20px;
+    }
+}
+
